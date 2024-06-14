@@ -1,0 +1,176 @@
+/* Este archivo es generado automáticamente a partir del archivo SCSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #837c3b;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    background-color: brown;
+    color: beige;
+    border-radius: 12px;
+  }
+  section{
+    background-color: antiquewhite;
+  }
+  
+  main {
+    background-color: beige;
+    padding: 1rem;
+  }
+
+
+  .tituloindex{
+    text-align: center;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .gallery .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f4f4f4;
+    padding: 1rem;
+    border: 1px solid #333;
+  }
+  
+  .gallery .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row;
+    }
+  }
+  
+  .content .description {
+    flex: 3;
+    padding: 1rem;
+  }
+  
+  .content .description img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .content aside {
+    flex: 1;
+    padding: 1rem;
+    background: #f4f4f4;
+    border: 1px solid #333;
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .content aside {
+      margin-top: 0;
+      margin-left: 1rem;
+    }
+  }
+  
+  .content aside h2 {
+    margin-top: 0;
+  }
+  
+  .content aside iframe {
+    width: 100%;
+    height: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    border: 1px solid #333;
+    text-align: left;
+  }
+  
+  th {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 0.5rem;
+  }
+  
+  form input, form textarea, form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: darken(#4CAF50, 10%);
+  }
+  
+  .comments .comment {
+    background: #f4f4f4;
+    padding: 1rem;
+    border: 1px solid #333;
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border: 1px solid #333;
+    margin-bottom: 1rem;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }

@@ -1,0 +1,18 @@
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin responsive($property, $small, $medium, $large) {
+    #{$property}: $small;
+  
+    @media (min-width: 768px) {
+      #{$property}: $medium;
+    }
+  
+    @media (min-width: 1024px) {
+      #{$property}: $large;
+    }
+  }
